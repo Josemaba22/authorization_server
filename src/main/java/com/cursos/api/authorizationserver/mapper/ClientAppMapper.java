@@ -15,7 +15,7 @@ import java.time.Duration;
 
 public class ClientAppMapper {
 
-    public static RegisteredClient toRegisteredCliend(ClientApp clientApp){
+    public static RegisteredClient toRegisteredClient(ClientApp clientApp){
 
         RegisteredClient client = RegisteredClient.withId(clientApp.getClientId())
             .clientId(clientApp.getClientId())
